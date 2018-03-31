@@ -24,6 +24,10 @@ import { EmbedService } from '../../../services/embed';
           (click)="openWindow('https://twitter.com/intent/tweet?text=Shared%20via%20planetconcourse.world&tw_p=tweetbutton&url=' + encodedUrl)">
           <!-- i18n: @@MODALS__SHARE__ON_TWITTER -->Share on Twitter<!-- /i18n -->
         </button>
+        <button class="mdl-button mdl-button--raised mdl-color-text--white m-social-share-twitter"
+          (click)="openWindow('?mini=true&url=' + encodedUrl +'&title=LinkedIn&source=Planet Concourse Worlds')">
+          Share on LinkedIn
+        </button>
       </div>
 
       <div class="m-modal-share-embed" *ngIf="embedCode">
