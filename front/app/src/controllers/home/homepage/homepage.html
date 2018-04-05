@@ -53,18 +53,13 @@
 
   <section class="m-homepage-section" style="padding-top:0">
     <div style="background-color:#d3e3e8">
-      <!--<span>
-        <img style="max-width:70vw" alt="Our Mission"
-             src="https://planetconcourse.world/assets/Humanity's Challenge Humanity's Play Station Humanity's Dreamscape Humanity's Love Story2.png">
-      </span>-->
-      <video autoplay="" muted="" loop="">
-        <!--<source src="assets/videos/traffic-1/traffic-1.webm" type="video/webm">
-        <source src="assets/videos/traffic-1/traffic-1.mp4" type="video/mp4">-->
+      <video muted="" loop="">
         <source src="{{minds.cdn_assets_url}}assets/videos/PlanetConcourseWorldsBonus.webm" type="video/webm">
         <source src="{{minds.cdn_assets_url}}assets/videos/PlanetConcourseWorldsBonus.mp4" type="video/mp4">
       </video>
     </div>
   </section>
+
 <section class="m-homepage-section" style="padding-top:0">
   <div class="overlay">
     <div class="mdl-grid m-homepage-grid">
@@ -75,7 +70,6 @@
       <div class="mdl-cell mdl-cell--6-col m-homepage-signup" [hidden]="session.isLoggedIn()" style="max-width:500px;margin-left:35vw;">
         <minds-form-register (done)="registered()" (click)="banner.expand = true"></minds-form-register>
       </div>
-
     </div>
   </div>
 
@@ -122,15 +116,6 @@
   </div>
 
 </section>
-
-<!--<section class="m-homepage-section">
-  <div style="background-color:#d3e3e8">
-    <span>
-      <img style="min-width:50vw;max-width:40vw" alt="Our Mission" class="responsive"
-           src="https://planetconcourse.world/assets/Humanity's Challenge Humanity's Play Station Humanity's Dreamscape Humanity's Love Story.png">
-    </span>
-  </div>
-</section>-->
 
 <section class="m-homepage-section">
  <h1 class="mdl-color-text--blue-grey-800" i18n="@@MINDS__HOME__HOMEPAGE__GO_VIRAL_TITLE">Expand Your Pollination Power</h1>
