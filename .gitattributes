@@ -28,6 +28,9 @@
 *.gif binary
 *.ico binary
 *.mo binary
+*.mp4 binary
+*.webm binary
+
 
 # Remove files for archives generated using `git archive`
 appveyor.yml export-ignore
