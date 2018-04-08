@@ -67,9 +67,11 @@
         <h3 [hidden]="session.isLoggedIn()" i18n="@@MINDS__HOME__HOMEPAGE__LAUNCH_CTA" style="color:black">Launch a channel today</h3>
         <h3 *ngIf="session.isLoggedIn()" i18n="@@MINDS__HOME__HOMEPAGE__WELCOME_LABEL">Welcome {{session.getLoggedInUser().name}}</h3>
       </div>
-      <div class="mdl-cell mdl-cell--6-col m-homepage-signup" [hidden]="session.isLoggedIn()" style="max-width:500px;margin-left:35vw;">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 m-homepage-signup" [hidden]="session.isLoggedIn()" style="max-width:500px;margin-left:35vw;">
         <minds-form-register (done)="registered()" (click)="banner.expand = true"></minds-form-register>
       </div>
+      <div class="col-md-4"></div>
     </div>
   </div>
 
