@@ -53,7 +53,7 @@
 
   <section class="m-homepage-section" style="padding-top:0" >
     <div style="background-color:#d3e3e8">
-      <video controls="" muted="" loop="" *ngIf="flags.canPlayInlineVideos">
+      <video controls="" muted="" loop="" poster="{{minds.cdn_assets_url}}assets/videos/PlanetConcourseWorldsBonus-720p.gif" *ngIf="flags.canPlayInlineVideos">
         <source src="{{minds.cdn_assets_url}}assets/videos/PlanetConcourseWorldsBonus-720p.webm" type="video/webm">
         <source src="{{minds.cdn_assets_url}}assets/videos/PlanetConcourseWorldsBonus.mp4" type="video/mp4">
       </video>
@@ -67,11 +67,11 @@
         <h3 [hidden]="session.isLoggedIn()" i18n="@@MINDS__HOME__HOMEPAGE__LAUNCH_CTA" style="color:black">Launch a channel today</h3>
         <h3 *ngIf="session.isLoggedIn()" i18n="@@MINDS__HOME__HOMEPAGE__WELCOME_LABEL">Welcome {{session.getLoggedInUser().name}}</h3>
       </div>
-      <div class="col-md-4"></div>
-      <div class="col-md-4 m-homepage-signup" [hidden]="session.isLoggedIn()" style="max-width:500px;margin-left:35vw;">
+      <div class="md1-cell--4-col"></div>
+      <div class="md1-cell--4-col m-homepage-signup" [hidden]="session.isLoggedIn()" style="max-width:500px;margin-left:35vw;">
         <minds-form-register (done)="registered()" (click)="banner.expand = true"></minds-form-register>
       </div>
-      <div class="col-md-4"></div>
+      <div class="md1-cell--4-col"></div>
     </div>
   </div>
 
