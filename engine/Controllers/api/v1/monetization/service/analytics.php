@@ -7,7 +7,7 @@
  */
 namespace Minds\Controllers\api\v1\monetization\service;
 
-use planetconcourse.worldponents\Controller;
+use Minds\Components\Controller;
 use Minds\Core;
 use Minds\Helpers;
 use Minds\Entities;
