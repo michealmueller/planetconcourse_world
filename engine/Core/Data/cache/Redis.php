@@ -19,9 +19,9 @@ class Redis extends abstractCacher
 
     public function __construct($config = null)
     {
-        $this->config = Di::_()->get('Config');
-        $this->master =  $this->config->redis['master'];
-        $this->slave =  $this->config->redis['slave'];
+        //$this->config = Di::_()->get('Config');
+        //$this->master =  $this->config->redis['master'];
+        //$this->slave =  $this->config->redis['slave'];
     }
 
     private function getMaster()

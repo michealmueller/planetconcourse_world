@@ -12,6 +12,6 @@ elasticsearch/bin/elasticsearch -d
 
 echo "Installed. Run with \`./elasticsearch/bin/elasticsearch -d\`"
 
-php /var/www/Minds/misc/plugins.php
+php /var/www/Minds/bin/misc/plugins.php
 
 rm elasticsearch-1.7.2.tar.gz
