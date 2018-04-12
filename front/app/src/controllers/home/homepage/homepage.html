@@ -221,7 +221,14 @@
 </section>
 
 
-<span style="width: 100%; height: 1px; background: #DEDEDE; display: block;"></span>
+<section class="m-homepage-section" style="padding-top:0" >
+  <div style="background-color:#d3e3e8">
+    <video controls="" muted="" loop="" *ngIf="flags.canPlayInlineVideos">
+      <source src="{{minds.cdn_assets_url}}assets/videos/The Global Humanity Challenge Rewrite The Legend.webm" type="video/webm">
+      <source src="{{minds.cdn_assets_url}}assets/videos/The Global Humanity Challenge Rewrite The Legend.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
 
 
 <div class="mdl-grid mdl-grid--no-spacing m-homepage-stream">
