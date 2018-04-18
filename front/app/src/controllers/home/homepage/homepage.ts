@@ -44,8 +44,8 @@ export class Homepage {
   ) {
     this.title.setTitle('Home');
     this.loadStream();
-    //this.loadVideos();
-    //this.loadBlogs();
+    this.loadVideos();
+    this.loadBlogs();
 
     if (/iP(hone|od)/.test(window.navigator.userAgent)) {
       this.flags.canPlayInlineVideos = false;
