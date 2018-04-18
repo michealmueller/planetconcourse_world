@@ -11,7 +11,7 @@ function _out(array $output = [], $exit = false, $nosmartindent = false)
     if (!$nosmartindent && $smartindented) {
         echo "       ";
     } elseif (!$nosmartindent) {
-        echo "minds: ";
+        echo "Planet Concourse: ";
     }
 
     echo implode(PHP_EOL, $output) . PHP_EOL;

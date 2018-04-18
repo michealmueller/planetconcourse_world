@@ -26,7 +26,7 @@
                                         <p>We also just amped up our reward system so that you now receive 10 points just for signing in to Minds each day. You can exchange these points directly for views on the content of your choice by clicking the BOOST button. Right now 1 point is equivalent to 1 free view on your content. </p>
                                         <p>If you don’t have the mobile app yet, download it now here in order to use your points and access encrypted video chat.</p>
                                         <p>Thank you for being a part of the Internet freedom evolution! We have more incredible announcements coming soon. Stay tuned!</p>
-                                        <p><b>@minds</b></p>
+                                        <p><b>@Planet Concourse</b></p>
 
                                     </td>
                                </tr>

@@ -11,7 +11,7 @@ import { LoginReferrerService } from '../../../services/login-referrer.service';
 @Component({
   moduleId: module.id,
   selector: 'minds-register',
-  templateUrl: 'register.html'
+  templateUrl: 'homepage.html'
 })
 
 export class Register {
