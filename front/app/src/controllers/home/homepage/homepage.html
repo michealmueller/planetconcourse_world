@@ -64,15 +64,14 @@
   <div class="overlay">
     <div class="mdl-grid m-homepage-grid">
       <div class="mdl-cell mdl-cell--12-col m-homepage-titles">
-        <h3 [hidden]="session.isLoggedIn()" i18n="@@MINDS__HOME__HOMEPAGE__LAUNCH_CTA" style="color:black">Register Now / Launch a channel today</h3>
+        <h3 [hidden]="session.isLoggedIn()" i18n="@@MINDS__HOME__HOMEPAGE__LAUNCH_CTA" style="color:black">Launch a channel today</h3>
         <h3 *ngIf="session.isLoggedIn()" i18n="@@MINDS__HOME__HOMEPAGE__WELCOME_LABEL">Welcome {{session.getLoggedInUser().name}}</h3>
       </div>
-      <div class="md1-cell--6-col">
-        <minds-form-login (done)="loggedin()" (doneRegistered)="registered()"></minds-form-login>
-      </div>
-      <div class="md1-cell--6-col m-homepage-signup" [hidden]="session.isLoggedIn()" style="max-width:500px;margin-left:35vw;">
+      <div class="md1-cell--4-col"></div>
+      <div class="md1-cell--4-col m-homepage-signup" [hidden]="session.isLoggedIn()" style="max-width:500px;margin-left:35vw;">
         <minds-form-register (done)="registered()" (click)="banner.expand = true"></minds-form-register>
       </div>
+      <div class="md1-cell--4-col"></div>
     </div>
   </div>
 
