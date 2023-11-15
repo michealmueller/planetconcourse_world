@@ -38,7 +38,7 @@
     "rxjs": "~5.0.1",
     "socket.io-client": "^1.4.5",
     "systemjs": "0.19.40",
-    "tinymce": "^4.2.6",
+    "tinymce": "^5.10.9",
     "zone.js": "~0.8.5"
   },
   "devDependencies": {
